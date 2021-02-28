@@ -1,13 +1,15 @@
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-container">
-        <div class="card text-center text-dark bg-light mb-3" style="width: 18rem;">
-            <div class="card-header">${manager.employeeName}</div>
-            <div class="card-header">${manager.getRole()}</div>
-            <div class="card-body bg-light mb-3">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item bg-light">ID Number: ${manager.id}</li>
-                    <li class="list-group-item bg-light"><a href="mailto:${email}" class="card-link">Email: ${manager.email}</a></li>
-                    <li class="list-group-item bg-light">Office Number: ${manager.officeNum}</li>
-                </ul>
-            </div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-container" style="margin: 10px; width: auto;">
+    <div class="card text-center text-dark bg-light mb-3" style="width: 18rem;">
+        <div class="card-header text-center">
+            <div class="card-title">${manager.employeeName}</div>
+            <div class="card-title"><i class="fas fa-mug-hot mx-2"></i>${manager.getRole()}</div>
+        </div>
+        <div class="card-body bg-light mb-3">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-light">ID Number: ${manager.id}</li>
+                <li class="list-group-item bg-light"><a href="mailto:${email}" class="card-link">Email:</a> ${manager.email}</li>
+                <li class="list-group-item bg-light">Office Number: ${manager.officeNum}</li>
+            </ul>
         </div>
     </div>
+</div>

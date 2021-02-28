@@ -1,13 +1,15 @@
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-container">
-        <div class="card text-center text-dark bg-light mb-3" style="width: 18rem;">
-            <div class="card-header">${engineer.employeeName}</div>
-            <div class="card-header">${engineer.getRole()}</div>
-            <div class="card-body bg-light mb-3">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item bg-light">ID Number: ${engineer.id}</li>
-                    <li class="list-group-item bg-light"><a href="mailto:${email}" class="card-link">Email: ${engineer.email}</a></li>
-                    <li class="list-group-item bg-light"><a href="https://github.com/${github}" class="card-link">GitHub: ${engineer.github}</a></li>
-                </ul>
-            </div>
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-container" style="margin: 10px; width: auto;">
+    <div class="card text-center text-dark bg-light mb-3" style="width: 18rem;">
+        <div class="card-header text-center">
+            <div class="card-title">${engineer.employeeName}</div>
+            <div class="card-title"><i class="fas fa-glasses mx-2"></i>${engineer.getRole()}</div>
+        </div>
+        <div class="card-body bg-light mb-3">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-light">ID Number: ${engineer.id}</li>
+                <li class="list-group-item bg-light"><a href="mailto:${email}" class="card-link">Email:</a> ${engineer.email}</li>
+                <li class="list-group-item bg-light"><a href="https://github.com/${github}" class="card-link">GitHub:</a> ${engineer.github}</li>
+            </ul>
         </div>
     </div>
+</div>
