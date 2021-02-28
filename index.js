@@ -47,7 +47,8 @@ async function init() {
                 message: 'Please enter the team manager\'s id number.',
                 name: 'id',
                 validate: (answer) => {
-                    if (isNaN(answer)) {
+                    valid = /^[0-9]+$/.test(answer)
+                    if (!valid) {
                         return console.log(" *Input must be a number. Try again.*")
                     }
                     return true;
@@ -148,7 +149,8 @@ async function init() {
                 message: 'What is your employee\'s id number?',
                 name: 'id',
                 validate: (answer) => {
-                    if (isNaN(answer)) {
+                    valid = /^[0-9]+$/.test(answer)
+                    if (!valid) {
                         return console.log(" *Input must be a number. Try again.*")
                     }
                     return true;
@@ -214,7 +216,8 @@ async function init() {
                 message: 'What is your employee\'s id number?',
                 name: 'id',
                 validate: (answer) => {
-                    if (isNaN(answer)) {
+                    valid = /^[0-9]+$/.test(answer)
+                    if (!valid) {
                         return console.log(" *Input must be a number. Try again.*")
                     }
                     return true;
