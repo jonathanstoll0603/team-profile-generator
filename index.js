@@ -145,7 +145,7 @@ async function init() {
                 }
             },
             {
-                type: 'number',
+                type: 'input',
                 message: 'What is your employee\'s id number?',
                 name: 'id',
                 validate: (answer) => {
@@ -212,7 +212,7 @@ async function init() {
                 }
             },
             {
-                type: 'number',
+                type: 'input',
                 message: 'What is your employee\'s id number?',
                 name: 'id',
                 validate: (answer) => {
