@@ -9,7 +9,11 @@ Node.js command line application that allows users to input employee information
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 The Team Profile Generator is a node.js command-line application that takes in information about an employees, and generates an html page displays the summaries of each employee. The application utilizes Inquirer prompts in order to generate questions and answer values. In addition to Inquirer, Jest is used as a testing framework to help ensure the accuracy of all JavaScript code. Jest was critical  during the development of this project due to the incorporation of multiple JavaScript classes. 
+
+Below is an example of what your final team profile page will look like once all employees are added to the file. 
     
+![Final website Screenshot](../team-profile-generator/assets/Images/final-site-overview.png)
+
 
 ---
     
