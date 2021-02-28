@@ -12,7 +12,7 @@ The Team Profile Generator is a node.js command-line application that takes in i
 
 Below is an example of what your final team profile page will look like once all employees are added to the file. 
     
-![Final website Screenshot](../team-profile-generator/assets/Images/final-site-overview.png)
+![Final website Screenshot](./images/final-site-overview.png)
 
 
 ---
